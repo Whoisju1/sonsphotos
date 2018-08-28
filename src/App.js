@@ -2,10 +2,11 @@ import React, { Component } from 'react';
 import Main from "./components/Main";
 import Header from './components/Header';
 import Footer from './components/Footer';
+import reset from 'styled-reset';
 import { ThemeProvider, injectGlobal } from 'styled-components';
 
 injectGlobal`
-
+  ${reset}
 `;
 
 const theme = {
