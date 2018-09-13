@@ -11,7 +11,7 @@ const LogoText= styled.div`
 `;
 
 const Logo = () => (
-  <LogoText>SonsPhoto.com</LogoText>
+  <LogoText>SonsPhotos.com</LogoText>
 );
 
 export default Logo;

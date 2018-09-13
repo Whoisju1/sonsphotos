@@ -12,6 +12,7 @@ const ComingSoon = styled.p`
   text-align: center;
   font-family: 'Monoton', cursive;
   text-shadow: 5px 5px 15px rgba(0, 0, 0, .3);
+  letter-spacing: 1rem;
 `;
 
 const Text = () => (
