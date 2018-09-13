@@ -1,16 +1,19 @@
 import React from 'react';
 import styled from 'styled-components';
+import Logo from './Logo';
 
 const StyledHeader = styled.header`
-  /* color: ${({ theme }) => theme.color.secondary}; */
-  border: .1rem solid lightgray;
   grid-row: header-start/header-end;
   grid-column: 1/-1;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  background: #263238dc;
+  z-index: 2;
 `;
 
 const Header = () => (
   <StyledHeader>
-    Header
+    <Logo />
   </StyledHeader>
 );
 

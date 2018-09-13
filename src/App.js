@@ -22,11 +22,12 @@ injectGlobal`
   #root {
     box-sizing: border-box;
     display: grid;
-    min-height: 100vh;
+    height: 100vh;
     min-width: 100vw;
+    grid-gap: .1rem;
     font-size: 1.6rem;
     grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: [header-start]10rem [header-end content-start]auto[content-end footer-start] 20rem[footer-end]; 
+    grid-template-rows: [header-start]5rem [header-end content-start] auto [content-end footer-start] 10rem [footer-end page-bottom]; 
   }
 `;
 
@@ -42,9 +43,8 @@ class App extends Component {
         <ThemeProvider theme={theme}>
           <React.Fragment>
               <Header />
-              <Main>
-                Some Content
-              </Main>
+              {/* <VideoBackground /> */}
+              <Main />
               <Footer />
           </React.Fragment>
         </ThemeProvider>

@@ -1,15 +1,17 @@
 import React from 'react';
 import styled from 'styled-components';
+import Content from '../Content';
 
 const Container = styled.main`
   grid-column: 1/-1;
-  grid-row: content-start/content-end;
-  border: .05rem solid lightgray;
+  grid-row: 1/-1;
 `;
 
-const Main = (props) => (
+Container.displayName = 'MainContainer';
+
+const Main = () => (
   <Container>
-    {props.children}
+    <Content />
   </Container>
 );
 
