@@ -12,20 +12,10 @@ const StyledFooter = styled.footer`
   grid-gap: 4rem;
 `;
 
-const InstagramIcon = styled.img.attrs({
-  src: require('../../assets/images/instagram-logo.svg'),
-})`
-`;
-
-const Facebook = styled.img.attrs({
-  src: require('../../assets/images/facebook.svg'),
-})`
-`;
-
 const currentYear = new Date().getFullYear();
 
 const Link = styled.a.attrs({
-  target: '_blanc', 
+  target: '_blank', 
 })`
   &, &:link, &:active, &:visited {
     text-decoration: none;
@@ -47,7 +37,7 @@ const SVG = styled.svg.attrs({
 
 const Footer = () => (
   <StyledFooter>
-    <Link style={{ gridColumn: '2/3'}} href="https://instagram.com">
+    <Link style={{ gridColumn: '2/3'}} href="https://www.facebook.com/Sonsphotos">
       <SVG>
         <g class="outline">
           <g>
@@ -59,7 +49,7 @@ const Footer = () => (
         </g>
       </SVG>
     </Link>
-    <Link style={{ gridColumn: '3/4'}} href="https://facebook.com">
+    <Link style={{ gridColumn: '3/4'}} href="https://instagram.com/officialsonsphotos">
       <SVG>
         <g class="outline">
           <path d="M15.944,32.002l-4-7.373H3.359V0H28.64v24.629h-8.695L15.944,32.002z M4.359,23.629h8.181l3.404,6.275l3.405-6.275h8.291V1   H4.359V23.629z" />
