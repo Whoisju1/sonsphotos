@@ -27,18 +27,22 @@ const BaseLayerImg = styled(Img)`
 const animate = keyframes`
   0% {
     clip-path: circle(17% at 35% 20%);
+    opacity: 1
   }
+
+  50% {
+    opacity: 0;
+  }
+  
   100% {
     clip-path: circle(10% at 45% 60%);
   }
 `;
 
 const OverlayImg = styled(Img)`
-  animation: ${animate} 1.5s cubic-bezier(0.86, 0, 0.07, 1) infinite alternate;
+  animation: ${animate} 2.5s cubic-bezier(0.86, 0, 0.07, 1) infinite alternate;
+  filter: grayscale(70%);
 `;
-
-const TopLayerImg = styled(Img)`
-`; 
 
 const SideImage = () => (
   <Container>
