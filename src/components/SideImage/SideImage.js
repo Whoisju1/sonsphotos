@@ -27,7 +27,7 @@ const BaseLayerImg = styled(Img)`
 const animate = keyframes`
   0% {
     clip-path: circle(17% at 35% 20%);
-    opacity: 1
+    opacity: .8
   }
 
   50% {
@@ -35,6 +35,7 @@ const animate = keyframes`
   }
   
   100% {
+    opacity: .8;
     clip-path: circle(10% at 45% 60%);
   }
 `;
