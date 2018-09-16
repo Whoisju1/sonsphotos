@@ -12,8 +12,6 @@ const StyledFooter = styled.footer`
   grid-gap: 4rem;
 `;
 
-const currentYear = new Date().getFullYear();
-
 const Link = styled.a.attrs({
   target: '_blank', 
 })`
