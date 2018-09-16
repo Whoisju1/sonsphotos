@@ -2,7 +2,7 @@
   "name": "sons-photos-homepage",
   "version": "0.1.0",
   "private": true,
-  "homepage": " http://Whoisju1.github.io/sonsphotos.git",
+  "homepage": "http://Whoisju1.github.io/sonsphotos.git",
   "dependencies": {
     "polished": "^2.0.3",
     "react": "^16.4.2",
@@ -16,6 +16,10 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -d build"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.0.0"
   }
 }
