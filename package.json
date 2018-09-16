@@ -2,7 +2,7 @@
   "name": "sons-photos-homepage",
   "version": "0.1.0",
   "private": true,
-  "homepage": "git@github.com:Whoisju1/sonsphotos.git",
+  "homepage": " http://Whoisju1.github.io/sonsphotos.git",
   "dependencies": {
     "polished": "^2.0.3",
     "react": "^16.4.2",
