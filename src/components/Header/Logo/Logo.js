@@ -7,6 +7,7 @@ const LogoText= styled.div`
   color: #fff;
   justify-content: center;
   align-items: center;
+  letter-spacing: .4rem;
   font-size: 150%;
 `;
 
