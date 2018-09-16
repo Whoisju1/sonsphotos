@@ -14,6 +14,12 @@ const ComingSoon = styled.p`
   text-shadow: 5px 5px 15px rgba(0, 0, 0, .3);
   letter-spacing: .3rem;
   line-height: 1.7ex;
+  @media screen and (max-width: 570px) {
+    font-size: 150%;
+  }
+  @media screen and (max-width: 400px) {
+    font-size: 110%;
+  }
 `;
 
 const Text = () => (
