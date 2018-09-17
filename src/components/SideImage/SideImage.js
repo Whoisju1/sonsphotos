@@ -41,7 +41,7 @@ const animate = keyframes`
 `;
 
 const OverlayImg = styled(Img)`
-  animation: ${animate} 2.5s cubic-bezier(0.86, 0, 0.07, 1) infinite alternate;
+  animation: ${animate} 4s cubic-bezier(0.86, 0, 0.07, 1) infinite alternate;
   filter: grayscale(70%);
 `;
 

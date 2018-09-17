@@ -1,6 +1,7 @@
 import React from 'react';
 import styled, { keyframes } from 'styled-components';
 import Text from '../Text';
+import SideImage from '../SideImage';
 
 const backgroundMove = keyframes`
   0% {
@@ -33,6 +34,7 @@ ContentContainer.displayName = 'ContentContainer';
 const Content = () => (
   <ContentContainer>
     <Text />
+    <SideImage />
   </ContentContainer>
 );
 
