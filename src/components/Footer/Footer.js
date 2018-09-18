@@ -28,7 +28,6 @@ const SVG = styled.svg.attrs({
   height: '50%',
   width: '5.5rem',
 })`
-  /* border: 1px solid white; */
   &:hover {
     .outline {
       stroke: ${({strokeColor}) => strokeColor};
