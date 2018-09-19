@@ -18,8 +18,12 @@ const ContentContainer = styled.div`
   display: grid;
   height: 100%;
   font-size: 300%;
-  background-image: linear-gradient(to bottom,  #263238d2 0%, #263238 93%),
+  background-image: linear-gradient(to bottom,  #263238d2 0%, #263238 80%, #263238 90%),
     url(${require('../../assets/images/IMG_8752.JPG')});
+  @media (max-aspect-ratio: 60/100) {
+    animation: none;
+    background-size: cover;
+  }
   background-size: 100%;
   background-position: 70% 10%;
   background-attachment: fixed;
