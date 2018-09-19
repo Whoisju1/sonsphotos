@@ -16,7 +16,7 @@ const Img = styled.img.attrs({
   height: 100%;
   top: 0;
   left: 0;
-  @media (max-aspect-ratio: 2/1) {
+  @media (max-aspect-ratio: 100/60) {
     display: none;
   }
 `;
