@@ -11,7 +11,6 @@ const ComingSoon = styled.p`
   font-size: 200%;
   text-align: center;
   font-family: 'Monoton', cursive;
-  text-shadow: 5px 5px 15px rgba(0, 0, 0, .3);
   letter-spacing: .3rem;
   line-height: 1.7ex;
   @media screen and (max-width: 570px) {
