@@ -26,6 +26,9 @@ const Overlay = styled.div`
   background: -webkit-linear-gradient(-45deg, rgba(79,133,187,1) 1%,rgba(64,83,150,1) 100%); /* Chrome10-25,Safari5.1-6 */
   background: linear-gradient(135deg, rgba(79,133,187,1) 1%,rgba(64,83,150,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4f85bb', endColorstr='#405396',GradientType=1 );
+  @supports (background: rgb(79, 133, 187, .3)) {
+    display: none;
+  }
 `;
 
 const ContentContainer = styled.div`
