@@ -7,7 +7,8 @@ const StyledHeader = styled.header`
   grid-column: 1/-1;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  background: #263238dc;
+  background-color: #414141;
+  background-color: #263238dc;
   z-index: 2;
 `;
 

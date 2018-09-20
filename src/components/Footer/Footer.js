@@ -6,7 +6,11 @@ const StyledFooter = styled.footer`
   display: grid;
   grid-column: 1/-1;
   color: #fff;
-  background-color: ${transparentize('0.8', '#2f3640')};
+  background-color: #414141;
+  @supports (background-image: linear-gradient(to bottom,  #263238d2 0%, #263238 80%, #263238 90%),
+    url(${require('../../assets/images/IMG_8752.JPG')})) {
+    background-color: ${transparentize('0.8', '#2f3640')};
+  }
   grid-row: footer-start/footer-end;
   grid-template-columns: 1fr repeat(2, min-content) 1fr;
   grid-gap: 4rem;

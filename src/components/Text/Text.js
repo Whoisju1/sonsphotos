@@ -4,6 +4,7 @@ import styled from 'styled-components';
 const ComingSoon = styled.p`
   @import url('https://fonts.googleapis.com/css?family=Monoton');
   color: white;
+  text-shadow: 8px 9px 14px rgba(0, 0, 0, .6);
   position: fixed;
   top: 50%;
   left: 50%;

@@ -11,11 +11,16 @@ const Container = styled.div`
 const Img = styled.img.attrs({
   src: require('../../assets/images/IMG_8751.JPG'),
 })`
+  display: none;
   grid-column: 1/2;
   position: absolute;
   height: 100%;
   top: 0;
   left: 0;
+  @supports (background-image: linear-gradient(to bottom,  #263238d2 0%, #263238 80%, #263238 90%),
+    url(${require('../../assets/images/IMG_8752.JPG')})) {
+    display: block;
+  }
   @media (max-aspect-ratio: 100/60) {
     display: none;
   }
